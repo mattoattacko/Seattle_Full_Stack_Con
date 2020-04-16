@@ -43,7 +43,7 @@
       <p class="lead">A One Day Confrence About All Things JavaScript!</p>
 
       <div class="btn-group mt-4" role="group" aria-label="Callout buttons">
-        <button type="button" class="btn btn-primary btn-lg">Register Now</button>
+        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#register">Register Now</button>
         <a class="btn btn-light btn-lg" href="#speakers">See Speakers</a>
       </div>
     </div>
@@ -210,7 +210,7 @@
     <!-- /schedule -->
 
     <!-- callout button -->
-    <button type="button" class="btn btn-info btn-lg d-block mx-auto">Don't Miss Out, Register Now</button>
+    <button type="button" class="btn btn-outline-info btn-lg d-block mx-auto my-5" data-toggle="modal" data-target="#register">Don't Miss Out, Register Now</button>
     <!-- /callout button -->
 
     <!-- signup form -->
@@ -268,6 +268,31 @@
     <!-- /footer -->
 
   </div><!-- /.container-->
+
+  <!--=====================================
+     FORM MODAL
+    =====================================-->
+<!-- Modal -->
+<div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="register form" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Register for Seattle Full-Stack Con</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Form goes here...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
