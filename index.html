@@ -283,11 +283,31 @@
         </button>
       </div>
       <div class="modal-body">
-        Form goes here...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+
+        <!-- registration form -->
+        <form>
+          <h5 class="mb-4">Your Info</h5>
+          <div class="form-group">
+            <label class="form-control-label" for="name">Name</label>
+            <input type="text" class="form-control" id="name">
+          </div>
+          <div class="form-group">
+            <label class="form-control-label" for="email">Email:</label>
+            <input type="email" class="form-control" id="email">
+          </div>
+          <div class="form-group">
+            <label for="role">Job Role:</label>
+            <select class="form-control" id="role">
+              <option value="full stack js developer">Full Stack JavaScript Developer</option>
+              <option value="front end developer">Front End Developer</option>
+              <option value="back end developer">Back End Developer</option>
+              <option value="designer">Designer</option>
+              <option value="student">Student</option> 
+            </select>
+          </div>
+        </form>
+        <!-- /registration form -->
+
       </div>
     </div>
   </div>
